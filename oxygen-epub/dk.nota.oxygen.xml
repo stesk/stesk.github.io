@@ -28,8 +28,13 @@
         <xt:oxy_version>16.0+</xt:oxy_version>
         <xt:type>framework</xt:type>
         <xt:author>Nota</xt:author>
+<<<<<<< HEAD
         <xt:name>OPF framework</xt:name>
         <xt:description xmlns="http://www.w3.org/1999/xhtml">Framework for OPF</xt:description>
+=======
+        <xt:name>OPF 3.0 framework</xt:name>
+        <xt:description xmlns="http://www.w3.org/1999/xhtml">Framework for OPF 3.0</xt:description>
+>>>>>>> 3752b38092ee95425d6e56a153d25652e39eb5b9
         <xt:license><![CDATA[Copyrighted by Nota and distributed under GNU LGPL Version 3]]></xt:license>
     </xt:extension>
     <xt:extension id="dk.nota.oxygen.epub.xhtml5epub">
