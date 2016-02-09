@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>MathJax test</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+              extensions: ["tex2jax.js"],
+              jax: ["input/TeX", "output/HTML-CSS"],
+              tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: true
+              },
+              "HTML-CSS": { availableFonts: ["TeX"] }
+            });
+        </script>
+        <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'/>
+    </head>
+    <body>
+        <h1>MathJax test</h1>
+        <p>A document for testing various MathJax features.</p>
+        <section>
+            <h2>Display of LaTeX markup</h2>
+            <p>The following paragraph contains a mathematical expression in LaTeX code:</p>
+            <p class="latex">$f(x) = x + 2$</p>
+            <p>This paragraph contains inline LaTeX code: <span class="latex">$f(x) = x + 2$</span>.</p>
+        </section>
+    </body>
+</html>
