@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
     <head>
-        <title>MathJax test</title>
+        <title>MathJax-forsøg</title>
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <script type="text/x-mathjax-config">
             MathJax.Hub.Config({
@@ -19,13 +19,15 @@
         <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
     </head>
     <body>
-        <h1>MathJax test</h1>
-        <p>A document for testing various MathJax features.</p>
+        <h1>MathJax-forsøg</h1>
+        <p>Diverse ekesperimenter med MathJax.</p>
         <section>
-            <h2>Display of LaTeX markup</h2>
-            <p>The following paragraph contains a mathematical expression in LaTeX code:</p>
-            <p class="latex">$f(x) = x + 2$</p>
-            <p>This paragraph contains inline LaTeX code: <span class="latex">$f(x) = x + 2$</span>.</p>
+            <h2>Konvertering fra LaTeX</h2>
+            <p>Det næste afsnit indeholder et matematisk udtryk kodet i LaTeX:</p>
+            <p><code>$f(x)=x+2$</code></p>
+            <p>... som MathJax konverterer til følgende</p>
+            <p>$f(x) = x + 2$</p>
+            <p>Dette afsnit indeholder indlejret LaTeX-kode: <code>$f(x) = x + 2$</code>, som MathJax konverterer til følgende: $f(x) = x + 2$.</p>
         </section>
     </body>
 </html>
